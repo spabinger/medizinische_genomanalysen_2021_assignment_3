@@ -1,5 +1,5 @@
 import os
-from assignment3_solution import Assignment3
+from assignment3 import Assignment3
 
 def test_get_number_of_annotated_variants():
     a3 = Assignment3()
