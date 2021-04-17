@@ -17,7 +17,7 @@
 * pyvcf (http://pyvcf.readthedocs.io/en/latest/)
 
 ## Setup command
-`sudo -H pip3 install pytest pyvcf httplib2`
+`sudo -H pip3 install pytest pyvcf httplib2` (pandas)
 
 ## Run command
 `pytest`
