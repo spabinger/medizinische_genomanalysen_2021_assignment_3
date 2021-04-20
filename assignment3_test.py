@@ -10,7 +10,7 @@ def test_get_number_of_annotated_variants():
 def test_get_list_of_genes():
     a3 = Assignment3()
     assert os.path.exists("annotation_result.json"), "The annotation JSON file does not exist"
-    assert a3.get_list_of_genes() == 21
+    assert a3.get_list_of_genes() == 21 or len(a3.get_list_of_genes()) == 21
 
 
 def test_get_num_variants_modifier():
